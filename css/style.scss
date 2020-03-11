@@ -26,6 +26,13 @@ button {
 	transition: .3s;
 	}
 
+	&__icon {
+		color: #fff !important;
+	}
+
+	&__logo {
+		color: #fff !important;
+	}
 
 	&__color {
 		color: #d45a18;
@@ -36,6 +43,7 @@ button {
 	}
 
 	&__title {
+		color: #fff;
 		font-size: 33px;
 		font-weight: 800;
 		text-transform: uppercase;
@@ -102,3 +110,4 @@ button {
 
 @import "design.scss";
 @import "form.scss";
+@import "works.scss";
