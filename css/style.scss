@@ -20,11 +20,12 @@ button {
 
 .nav-link {
 	transition: .3s;
-}
-.nav-link:hover {
+	color: #fff !important;
+	&:hover {
 	color: #f7600e !important;
 	transition: .3s;
 	}
+}
 
 	&__icon {
 		color: #fff !important;
@@ -69,17 +70,23 @@ button {
 		@media screen and (min-width: 576px) {
 			display: flex;
 			flex-direction: column;
+			align-items: center;
 			margin-bottom: 30px;
 		}
 
 		@media screen and (min-width: 768px) {
 			display: flex;
 			flex-direction: column;
+			align-items: center;
+			margin-bottom: 0px;
 		}
 
 		@media screen and (min-width: 992px) {
+			display: flex;
+			justify-content: center;
 			flex-direction: row;
-			padding: 36px 0 0px;
+			padding: 36px 0;
+			margin-bottom: 0px;
 		}
 	}
 
